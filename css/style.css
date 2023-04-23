@@ -1,0 +1,191 @@
+/* ========================================================================== */
+/* Reset All CSS Default Formatting */
+/* ========================================================================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ========================================================================== */
+/* Global Formatting */
+/* ========================================================================== */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ========================================================================== */
+/* Header Formatting */
+/* ========================================================================== */
+header {
+    height: 120px;
+    margin: 0% 10% 0% 10%;
+    display: flex;
+}
+
+header img {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 100px;
+}
+
+header form {
+    border: 1px solid #636363;
+    border-radius: 8px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 20px;
+    width: 400px;
+}
+
+header form input {
+    border: none;
+    background-color: transparent;
+    margin-left: 2px;
+    outline: none;
+    font-size: 24px;
+    padding-top: 2.5px;
+    width: 350px;
+}
+
+header form button {
+    float: right;
+    border: none;
+    background-color: transparent;
+    padding: 6px 6px;
+}
+
+header form button::before {
+    font-family: FontAwesome;
+    content: "\f002";
+    color: #636363;
+    font-size: 24px;
+}
+
+header form button:hover::before {
+    color: #D82E4A;
+}
+
+nav {
+    padding-top: 48px;
+}
+
+nav ul {
+    display: inline;
+    float: right;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul a:hover {
+    color: #D82E4A;
+}
+
+.lang-selector {
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+/* ========================================================================== */
+/* Main Formatting */
+/* ========================================================================== */
+main {
+    background-color: #283745;
+}
+
+.empty-section {
+    background-color: #FFFFFF;
+}
+
+
+/* ========================================================================== */
+/* Footer Formatting */
+/* ========================================================================== */
+footer {
+    height: 120px;
+    display: flex;
+}
+
+.logo-biopark-footer {
+    background-color: #D82E4A;
+}
+
+.logo-biopark-footer img {
+    margin: 20px 50px 0px;
+    margin-left: 25em;
+    height: 80px;
+}
+
+.info-footer {
+    background-color: #283745;
+    width: 100%;
+    display: flex;
+}
+
+.img-facebook {
+    height: 24px;
+    margin: 48px 10px 48px 200px;
+}
+
+.img-instagram {
+    height: 24px;
+    margin: 48px 20px 48px 10px;
+}
+
+.info-footer p {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+
+
