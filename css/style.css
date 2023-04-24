@@ -63,7 +63,7 @@ header {
 header img {
     padding-top: 10px;
     padding-left: 10px;
-    height: 100px;
+    height: 80px;
 }
 
 header form {
@@ -71,9 +71,9 @@ header form {
     border-radius: 8px;
     height: 40px;
     margin-top: 40px;
-    margin-left: 80px;
+    margin-left: 40px;
     margin-right: 20px;
-    width: 400px;
+    width: 350px;
 }
 
 header form input {
@@ -81,9 +81,9 @@ header form input {
     background-color: transparent;
     margin-left: 2px;
     outline: none;
-    font-size: 24px;
+    font-size: 18px;
     padding-top: 2.5px;
-    width: 350px;
+    width: 300px;
 }
 
 header form button {
@@ -97,7 +97,7 @@ header form button::before {
     font-family: FontAwesome;
     content: "\f002";
     color: #636363;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 header form button:hover::before {
@@ -113,7 +113,7 @@ nav ul {
     float: right;
 
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     margin-left: 20px;
 }
 
@@ -158,7 +158,7 @@ footer {
 
 .logo-biopark-footer img {
     margin: 20px 50px 0px;
-    margin-left: 25em;
+    margin-left: 300px;
     height: 80px;
 }
 
@@ -169,19 +169,19 @@ footer {
 }
 
 .img-facebook {
-    height: 24px;
-    margin: 48px 10px 48px 200px;
+    height: 18px;
+    margin: 48px 10px 48px 150px;
 }
 
 .img-instagram {
-    height: 24px;
+    height: 18px;
     margin: 48px 20px 48px 10px;
 }
 
 .info-footer p {
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 40px;
     margin-top: 50px;
     display: inline-block;
