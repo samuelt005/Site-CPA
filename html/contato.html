@@ -14,92 +14,87 @@
 </head>
 <body>
     <header>
-        <img src="../assets/Logo-CPA.png" alt="">
-        <img src="../assets/Logo-Biopark.svg" alt="">
-        <form>
-            <input type="text" placeholder="Pesquise notícias da CPA">
-            <button type="submit"></button>
-        </form>
-        <nav>
-            <ul><a href=""><u>Contato</u></a></ul>
-            <ul><a href="">Documentos</a></ul>
-            <ul><a href="">Sobre a CPA</a></ul>
-        </nav>
-        <img src="../assets/brazil.png" alt="" class="lang-selector">
+        <div class="flex_container_header">
+            <div class="images_header">
+                <a href="../html/contato.html"><img src="../assets/Logo-CPA.png" alt=""></a>
+                <a href="../html/contato.html"><img src="../assets/Logo-Biopark.svg" alt=""></a>
+            </div>
+
+            <div class="form_header">
+                <form>
+                    <input class="form_header_input" type="text" placeholder="Pesquise notícias da CPA">
+                    <button class="form_header_search" type="submit"></button>
+                </form>
+            </div>
+
+            <div class="nav_header">
+                <nav>
+                    <ul><a href="">Sobre a CPA</a></ul>
+                    <ul><a href="">Documentos</a></ul>
+                    <ul><a href=""><u>Contato</u></a></ul>
+                    <ul><img src="../assets/brazil.png" alt="" class="lang-selector"></ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    
+
     <main>
-        <section>
+        <div class="flex_container_main">
+            <div class="contact_info">
+                <h1 class="contact_title">Contato</h1>
+                <div class="contact_items">
+                    <div>
+                        <p class="contact_mail_icon">ICONE</p>
+                    </div>
+                    <div class="contact_mail_text">
+                        <p>Dúvidas? fale conosco</p>
+                        <p>mailto:secretaria@biopark.com.br</p>
+                    </div>
+                </div>
+                <div class="contact_items">
+                    <div>
+                        <p class="contact_numbers_icon">ICONE</p>
+                    </div>
+                    <div class="contact_numbers_text">
+                        <p>Dúvidas? fale conosco</p>
+                        <p>(45) 2036-3607</p>
+                        <p>(45) 99147-6872</p>
+                    </div>
+                </div>
+                <div class="contact_items">
+                    <div>
+                        <p class="contact_address_icon">ICONE</p>
+                    </div>
+                    <div class="contact_address_text">
+                        <p>ROD PR-182 KM 320/321 – <br> BIOPARKTOLEDO – PR, <br> CEP -85.919-899</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact_form">
+                <p>CAIXA</p>
+            </div>
+        </div>
+
+        
+        <div class="empty-section">
             <br>
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        </section>
-        <section class="empty-section">
-            <br>
-            <br>
-        </section>
+        </div>
     </main>
 
     <footer>
-        <div class="logo-biopark-footer">
-            <img src="../assets/Logo-Biopark2.svg" alt="">
+        <div class="footer_left">
+            <div class="logo_footer">
+                <img src="../assets/Logo-Biopark2.svg" alt="">
+            </div>
         </div>
-        <div class="info-footer">  
-            <div class="img-facebook">
+        <div class="footer_right">  
+            <div class="footer_content">
                 <a href="https://www.facebook.com/biopark.edu/"><img src="../assets/Footer-Facebook.svg" alt=""></a>
-            </div>
-            <div class="img-instagram">
                 <a href="https://www.instagram.com/biopark_edu/"><img src="../assets/Footer-Instagram.svg" alt=""></a>
+                <p>Biopark Educação - Associação De Ensino, Pesquisa e Extensão Biopark</p>
             </div>
-            <p>Biopark Educação - Associação De Ensino, Pesquisa e Extensão Biopark</p>
         </div>
     </footer>
 </body>

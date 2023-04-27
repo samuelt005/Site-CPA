@@ -47,145 +47,197 @@ table {
 /* ========================================================================== */
 /* Global Formatting */
 /* ========================================================================== */
-* {
-    font-family: 'Poppins', sans-serif;
-}
 
 /* ========================================================================== */
 /* Header Formatting */
 /* ========================================================================== */
+
 header {
-    height: 120px;
-    margin: 0% 10% 0% 10%;
+    width: 100%;
+    align-self: center;
+}
+
+.flex_container_header {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 3em;
 }
 
-header img {
-    padding-top: 10px;
-    padding-left: 10px;
-    height: 80px;
+.images_header img {
+    height: 4em;
+    padding: 10px 10px;
 }
 
-header form {
+.form_header {
+    display: inline-block;
     border: 1px solid #636363;
     border-radius: 8px;
-    height: 40px;
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 20px;
-    width: 350px;
-}
-
-header form input {
-    border: none;
-    background-color: transparent;
-    margin-left: 2px;
-    outline: none;
-    font-size: 18px;
-    padding-top: 2.5px;
     width: 300px;
 }
 
-header form button {
-    float: right;
+.form_header_input {
     border: none;
     background-color: transparent;
-    padding: 6px 6px;
+    outline: none;
+    width: 250px;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
 }
 
-header form button::before {
+.form_header_search {
+    border: none;
+    background-color: transparent;
+    width: 20px;
+}
+
+.form_header_search::before {
     font-family: FontAwesome;
     content: "\f002";
     color: #636363;
     font-size: 18px;
 }
 
-header form button:hover::before {
+.form_header_search:hover::before {
     color: #D82E4A;
 }
 
-nav {
-    padding-top: 48px;
+.nav_header ul {
+    display: inline-block;
+    margin-left: 30px;
 }
 
-nav ul {
-    display: inline;
-    float: right;
-
+.nav_header ul a {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    margin-left: 20px;
-}
-
-nav ul a {
     text-decoration: none;
     color: #000000;
 }
 
-nav ul a:hover {
+.nav_header ul a:hover {
     color: #D82E4A;
 }
 
-.lang-selector {
-    height: 20px;
-    margin-top: 40px;
-    margin-left: 5px;
+.nav_header ul img {
+    height: 16px;
 }
 
 /* ========================================================================== */
 /* Main Formatting */
 /* ========================================================================== */
+
 main {
     background-color: #283745;
 }
 
+.flex_container_main {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 60px 0 60px 0;
+}
+
+.contact_title {
+    font-size: 48px;
+    font-weight: 600;
+    color: #D82E4A;
+    margin: 10px 10px 40px 0;
+}
+
+.contact_items {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.contact_mail_icon::before {
+    font-family: FontAwesome;
+    /* content: "\f0e0"; */
+    font-weight: 400;
+    color: #D82E4A;
+    font-size: 18px;
+}
+
+.contact_numbers_icon::before {
+    font-family: FontAwesome;
+    /* content: "\f232"; */
+    font-weight: 400;
+    color: #D82E4A;
+    font-size: 18px;
+}
+
+.contact_address_icon::before {
+    font-family: FontAwesome;
+    /* content: "\f232"; */
+    font-weight: 400;
+    color: #D82E4A;
+    font-size: 18px;
+}
+
+.contact_form {
+    height: 362px;
+    width: 362px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin: 60px 0 60px 0;
+}
+
+
 .empty-section {
     background-color: #FFFFFF;
 }
-
-
 /* ========================================================================== */
-/* Footer Formatting */
+/* Footer formatting */
 /* ========================================================================== */
+
 footer {
-    height: 120px;
     display: flex;
 }
 
-.logo-biopark-footer {
+.footer_left {
     background-color: #D82E4A;
+    width: 35%;
 }
 
-.logo-biopark-footer img {
-    margin: 20px 50px 0px;
-    margin-left: 300px;
-    height: 80px;
-}
-
-.info-footer {
-    background-color: #283745;
-    width: 100%;
+.logo_footer {
     display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px 10px 0px;
+    height: 4em;
 }
 
-.img-facebook {
-    height: 18px;
-    margin: 48px 10px 48px 150px;
+.footer_right {
+    display: flex;
+    background-color: #283745;
+    width: 65%;
+    align-items: center;
 }
 
-.img-instagram {
-    height: 18px;
-    margin: 48px 20px 48px 10px;
+.footer_content {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
 }
 
-.info-footer p {
-    color: #FFFFFF;
+.footer_content a {
+    padding-left: 20px;
+}
+
+.footer_content p {
+    padding-left: 40px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    margin-left: 40px;
-    margin-top: 50px;
-    display: inline-block;
+    color: #FFFFFF;
 }
-
-
-
