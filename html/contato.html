@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CPA - Contato</title>
-    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/icons/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
             </div>
 
             <div class="form_header">
-                <form>
+                <form action="">
                     <input class="form_header_input" type="text" placeholder="Pesquise notícias da CPA">
                     <button class="form_header_search" type="submit"></button>
                 </form>
@@ -32,7 +32,7 @@
                     <ul><a href="">Sobre a CPA</a></ul>
                     <ul><a href="">Documentos</a></ul>
                     <ul><a href=""><u>Contato</u></a></ul>
-                    <ul><img src="../assets/brazil.png" alt="" class="lang-selector"></ul>
+                    <ul><img src="../assets/icons/brazil.png" alt="" class="lang-selector"></ul>
                 </nav>
             </div>
         </div>
@@ -42,37 +42,54 @@
         <div class="flex_container_main">
             <div class="contact_info">
                 <h1 class="contact_title">Contato</h1>
-                <div class="contact_items">
-                    <div>
-                        <p class="contact_mail_icon">ICONE</p>
-                    </div>
-                    <div class="contact_mail_text">
-                        <p>Dúvidas? fale conosco</p>
-                        <p>mailto:secretaria@biopark.com.br</p>
-                    </div>
-                </div>
-                <div class="contact_items">
-                    <div>
-                        <p class="contact_numbers_icon">ICONE</p>
-                    </div>
-                    <div class="contact_numbers_text">
-                        <p>Dúvidas? fale conosco</p>
-                        <p>(45) 2036-3607</p>
-                        <p>(45) 99147-6872</p>
-                    </div>
-                </div>
-                <div class="contact_items">
-                    <div>
-                        <p class="contact_address_icon">ICONE</p>
-                    </div>
-                    <div class="contact_address_text">
-                        <p>ROD PR-182 KM 320/321 – <br> BIOPARKTOLEDO – PR, <br> CEP -85.919-899</p>
-                    </div>
-                </div>
+
+                <table>
+                    <tr>
+                        <td class="contact_mail_icon"><img src="../assets/icons/icon_email.png" alt=""></td>
+                        <td class="contact_mail_text">
+                            <p>Dúvidas? fale conosco</p>
+                            <p>mailto:secretaria@biopark.com.br</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="contact_numbers_icon"><img src="../assets/icons/icon_whatsapp.png" alt=""></td>
+                        <td class="contact_numbers_text">
+                            <p>Dúvidas? fale conosco</p>
+                            <p>(45) 2036-3607</p>
+                            <p>(45) 99147-6872</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="contact_address_icon"><img src="../assets/icons/icon_address.png" alt=""></td>
+                        <td class="contact_address_text">
+                            <p>ROD PR-182 KM 320/321 – <br> BIOPARKTOLEDO – PR, <br> CEP -85.919-899</p>
+                        </td>
+                    </tr>
+                </table>
             </div>
 
             <div class="contact_form">
-                <p>CAIXA</p>
+                <form action="">
+                    <div class="name_and_mail">
+                        <input class="contact_name" type="text" placeholder="Nome" required>
+                        <input class="contact_mail" type="email" placeholder="E-mail" required>
+                    </div>
+                    <div>
+                        <input class="contact_subject" type="text" placeholder="Assunto" required>
+                    </div>
+                    <div>
+                        <textarea class="contact_message" name="contact_message" id="contact_message" rows="6" placeholder="Mensagem" required></textarea>
+                    </div>
+                    <div>
+                        <input class="contact_whatsapp" type="tel" placeholder="Whatsapp" required>
+                    </div>
+                    <div>
+                        <button class="contact_send_button" type="submit">
+                            ENVIAR MENSAGEM 
+                            <img src="../assets/icons/icon_arrow_white.png" alt="">
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
 
