@@ -48,6 +48,11 @@ table {
 /* Global Formatting */
 /* ========================================================================== */
 
+body {    
+    position: relative;
+    min-height: 100vh;
+}
+
 /* ========================================================================== */
 /* Header Formatting */
 /* ========================================================================== */
@@ -130,12 +135,15 @@ header {
 /* ========================================================================== */
 
 main {
-    background-color: #283745;
+    background-color: #FFFFFF;
+    padding-bottom: 84px;
 }
 
 .flex_container_main {
     display: flex;
+    background-color: #283745;
     justify-content: space-around;
+    flex-wrap: wrap;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
@@ -277,7 +285,7 @@ main {
 
 .empty-section {
     background-color: #FFFFFF;
-    height: 16px;
+    height: 20px;
 }
 /* ========================================================================== */
 /* Footer formatting */
@@ -285,6 +293,10 @@ main {
 
 footer {
     display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 84px;
 }
 
 .footer_left {
