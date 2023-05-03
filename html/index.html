@@ -5,44 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CPA - Página Inicial</title>
-    <link rel="shortcut icon" href="../assets/icons/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/icons/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
     <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
-    <!-- Add the new slick-theme.css if you want the default styling -->
     <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
 </head>
 <body>
+    <!-- =================================================================== -->
+    <!-- HEADER -->
+    <!-- =================================================================== -->
     <header>
-        <div class="flex_container_header">
-            <div class="images_header">
-                <a href="../html/index.html"><img src="../assets/Logo-CPA.png" alt=""></a>
-                <a href="../html/index.html"><img src="../assets/Logo-Biopark.svg" alt=""></a>
-            </div>
-
-            <div class="form_header">
-                <form action="">
-                    <input class="form_header_input" type="text" placeholder="Pesquise notícias da CPA">
-                    <button class="form_header_search" type="submit"></button>
-                </form>
-            </div>
-
-            <div class="nav_header">
-                <nav>
-                    <ul><a href="">Sobre a CPA</a></ul>
-                    <ul><a href="">Documentos</a></ul>
-                    <ul><a href="">Contato</a></ul>
-                    <ul><img src="../assets/icons/brazil.png" alt="" class="lang-selector"></ul>
-                </nav>
-            </div>
-        </div>
+        <include-src src="header.html"></include-src>
     </header>
 
+    <!-- =================================================================== -->
+    <!-- MAIN -->
+    <!-- =================================================================== -->
     <main>
         <div class="flex_container_main">
             <div class="carousel_container">
@@ -65,21 +47,17 @@
         </div>
     </main>
 
+    <!-- =================================================================== -->
+    <!-- FOOTER -->
+    <!-- =================================================================== -->
     <footer>
-        <div class="footer_left">
-            <div class="logo_footer">
-                <img src="../assets/Logo-Biopark2.svg" alt="">
-            </div>
-        </div>
-        <div class="footer_right">  
-            <div class="footer_content">
-                <a href="https://www.facebook.com/biopark.edu/"><img src="../assets/Footer-Facebook.svg" alt=""></a>
-                <a href="https://www.instagram.com/biopark_edu/"><img src="../assets/Footer-Instagram.svg" alt=""></a>
-                <p>Biopark Educação - Associação De Ensino, Pesquisa e Extensão Biopark</p>
-            </div>
-        </div>
+        <include-src src="footer.html"></include-src>
     </footer>
 
+    <!-- =================================================================== -->
+    <!-- SCRIPTS -->
+    <!-- =================================================================== -->
+    <script type="text/javascript" src="../scripts/include.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="../slick/slick.min.js"></script>

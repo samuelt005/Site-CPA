@@ -59,18 +59,53 @@ main {
 
 .slick-dots li button:before{
     content: ''!important;
-    height:100%!important;
+    height: 100%!important;
     width: 100%!important;
 }
 
 .slick-dots li{
     width: 10px!important;
-    height:10px!important;
+    height: 10px!important;
     margin: 10px!important;
 }
 
 .slick-dots{
     bottom:  30px!important;
+}
+
+.slick-arrow:before{
+    content:""!important;
+    width: 100%!important;
+    height: 100%!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slick-next:before{
+    background: url(../assets/icons/icon_arrow_white.png) no-repeat;
+    background-size: contain!important;
+}
+
+.slick-prev:before{
+    background: url(../assets/icons/icon_arrow_white.png) no-repeat;
+    background-size: contain!important;
+    transform: rotate(180deg);
+}
+
+.slick-arrow{
+    z-index: 2!important;
+    width: 40px!important;
+    height: 40px!important;
+}
+
+.slick-next{
+    right: 10px!important;
+    height: 30px!important;
+}
+
+.slick-prev{
+    left: 10px!important;
 }
 
 .empty-section {
