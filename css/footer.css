@@ -1,0 +1,47 @@
+/* ========================================================================== */
+/* Footer formatting */
+/* ========================================================================== */
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 84px;
+}
+
+.footer_left {
+    background-color: #D82E4A;
+    width: 35%;
+}
+
+.logo_footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px 10px 0px;
+    height: 4em;
+}
+
+.footer_right {
+    display: flex;
+    background-color: #283745;
+    width: 65%;
+    align-items: center;
+}
+
+.footer_content {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.footer_content a {
+    padding-left: 20px;
+}
+
+.footer_content p {
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,157 @@
+/* ========================================================================== */
+/* Contato Formatting */
+/* ========================================================================== */
+
+main {
+    background-color: #FFFFFF;
+    padding-bottom: 84px;
+}
+
+.flex_container_main {
+    display: flex;
+    background-color: #283745;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 60px 0 60px 0;
+    width: 400px;
+
+}
+
+.contact_title {
+    font-size: 48px;
+    font-weight: 600;
+    color: #D82E4A;
+    margin: 10px 10px 40px 0;
+}
+
+.contact_info table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.contact_info table td {
+    padding-bottom: 40px;
+}
+
+.contact_items {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.contact_mail_icon{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact_mail_icon img{
+    height: 18px;
+}
+
+.contact_numbers_icon {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact_numbers_icon img{
+    height: 22px;
+}
+
+.contact_address_icon {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact_address_icon img{
+    height: 24px;
+}
+
+.contact_mail_text, .contact_numbers_text, .contact_address_text {
+    padding-left: 10px;
+}
+
+
+.contact_form {
+    width: 600px;
+    margin: 60px 0 60px 0;
+    justify-content: left;
+    align-items: center;
+}
+
+.contact_name, .contact_mail, .contact_subject, .contact_message, .contact_whatsapp {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    border: #FFFFFF;
+    color: #C6C6C6;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.name_and_mail {
+    display: flex;
+    margin-bottom: 22px;
+    justify-content: space-between;
+}
+
+.contact_name {
+    height: 30px;
+    width: 46%;
+    padding-left: 2%;
+}
+
+.contact_mail {
+    height: 30px;
+    width: 46%;
+    padding-left: 2%;
+}
+
+.contact_subject, .contact_whatsapp {
+    height: 30px;
+    width: 97.5%;
+    padding-left: 2%;
+    margin-bottom: 22px;
+}
+
+.contact_message {
+    width: 97.5%;
+    padding-left: 2%;
+    margin-bottom: 22px;
+    resize: none;
+}
+
+.contact_send_button {
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    background-color: #D82E4A;
+    width: 50%;
+    height: 40px;
+    margin-top: 2%;
+    padding-left: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #FFFFFF;
+    cursor: pointer;    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact_send_button img {
+    height: 22px;
+}
+
+.empty-section {
+    background-color: #FFFFFF;
+    height: 20px;
+}

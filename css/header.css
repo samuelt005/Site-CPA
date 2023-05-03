@@ -1,0 +1,131 @@
+/* ========================================================================== */
+/* Reset All CSS Default Formatting */
+/* ========================================================================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ========================================================================== */
+/* Global Formatting */
+/* ========================================================================== */
+
+body {    
+    position: relative;
+    min-height: 100vh;
+}
+
+/* ========================================================================== */
+/* Header Formatting */
+/* ========================================================================== */
+
+header {
+    width: 100%;
+    align-self: center;
+}
+
+.flex_container_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 3em;
+}
+
+.images_header img {
+    height: 4em;
+    padding: 10px 10px;
+}
+
+.form_header {
+    display: inline-block;
+    border: 1px solid #636363;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.form_header_input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 250px;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.form_header_search {
+    border: none;
+    background-color: transparent;
+    width: 20px;
+}
+
+.form_header_search::before {
+    font-family: FontAwesome;
+    content: "\f002";
+    color: #636363;
+    font-size: 18px;
+}
+
+.form_header_search:hover::before {
+    color: #D82E4A;
+}
+
+.nav_header ul {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav_header ul a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav_header ul a:hover {
+    color: #D82E4A;
+}
+
+.nav_header ul img {
+    height: 16px;
+}
