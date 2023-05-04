@@ -32,7 +32,6 @@ main {
     padding: 20px;
     margin: 60px 0 60px 0;
     width: 400px;
-
 }
 
 .contact_title {
@@ -94,6 +93,10 @@ main {
     margin: 60px 0 60px 0;
     justify-content: left;
     align-items: center;
+}
+
+.contact_form input, .contact_form textarea {
+    color: #000000;
 }
 
 .contact_name, .contact_mail, .contact_subject, .contact_message, .contact_whatsapp {

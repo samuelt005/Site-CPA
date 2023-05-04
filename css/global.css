@@ -56,9 +56,9 @@ body {
 ::selection {
 	color: white;
 	background-color: #D82E4A;
-  }
+}
   
-  ::-moz-selection {
+::-moz-selection {
 	color: white;
 	background-color: #D82E4A;
-  }
+}
