@@ -11,7 +11,7 @@ footer {
 }
 
 .footer_left {
-    background-color: #D82E4A;
+    background-color: var(--CERISEREDRED);
     width: 35%;
 }
 
@@ -24,7 +24,7 @@ footer {
 
 .footer_right {
     display: flex;
-    background-color: #283745;
+    background-color: var(--PICKLEDBLUEWOOD);
     width: 65%;
     align-items: center;
 }

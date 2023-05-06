@@ -3,7 +3,7 @@
 /* ========================================================================== */
 
 .contato_button {
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid var(--TEXTCOLOR2);
 }
 
 /* ========================================================================== */
@@ -11,13 +11,13 @@
 /* ========================================================================== */
 
 main {
-    background-color: #FFFFFF;
+    background-color: var(--WHITE);
     padding-bottom: 84px;
 }
 
 .flex_container_main {
     display: flex;
-    background-color: #283745;
+    background-color: var(--PICKLEDBLUEWOOD);
     justify-content: space-around;
     flex-wrap: wrap;
     font-family: 'Poppins', sans-serif;
@@ -27,7 +27,7 @@ main {
 .contact_info {
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: var(--WHITE);
     border-radius: 25px;
     padding: 20px;
     margin: 60px 0 60px 0;
@@ -37,7 +37,7 @@ main {
 .contact_title {
     font-size: 48px;
     font-weight: 600;
-    color: #D82E4A;
+    color: var(--CERISEREDRED);
     margin: 10px 10px 40px 0;
 }
 
@@ -85,6 +85,7 @@ main {
 
 .contact_mail_text, .contact_numbers_text, .contact_address_text {
     padding-left: 10px;
+    color: var(--TEXTCOLOR2);
 }
 
 
@@ -96,17 +97,22 @@ main {
 }
 
 .contact_form input, .contact_form textarea {
-    color: #000000;
+    color: var(--TEXTCOLOR2);
 }
 
 .contact_name, .contact_mail, .contact_subject, .contact_message, .contact_whatsapp {
     font-family: 'Poppins', sans-serif;
     border-radius: 8px;
-    border: #FFFFFF;
-    color: #C6C6C6;
+    border: var(--WHITE);
+    color: var(--TEXTCOLOR3);
+    background-color: var(--WHITE);
     border: none;
     outline: none;
     font-size: 18px;
+}
+
+.name_and_mail input::placeholder, .contact_subject::placeholder, .contact_whatsapp::placeholder, .contact_message::placeholder {
+    color: var(--TEXTCOLOR5);
 }
 
 .name_and_mail {
@@ -145,14 +151,14 @@ main {
     display: flex;
     border: none;
     border-radius: 8px;
-    background-color: #D82E4A;
+    background-color: var(--CERISEREDRED);
     width: 50%;
     height: 40px;
     margin-top: 2%;
     padding-left: 2%;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
-    color: #FFFFFF;
+    color: var(--TEXTCOLOR1);
     cursor: pointer;    
     justify-content: space-around;
     align-items: center;
@@ -163,6 +169,6 @@ main {
 }
 
 .empty-section {
-    background-color: #FFFFFF;
+    background-color: var(--WHITE);
     height: 20px;
 }

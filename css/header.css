@@ -5,6 +5,7 @@
 header {
     width: 100%;
     align-self: center;
+    background-color: var(--WHITE);
 }
 
 .flex_container_header {
@@ -21,7 +22,7 @@ header {
 }
 
 .form_header {
-    border: 1px solid #636363;
+    border: 1px solid var(--DOVEGRAY);
     border-radius: 8px;
     width: 300px;
 }
@@ -53,7 +54,7 @@ header {
 }
 
 .form_header_search:hover::before {
-    color: #D82E4A;
+    color: var(--CERISEREDRED);
 }
 
 .nav_header ul {
@@ -69,11 +70,11 @@ header {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     text-decoration: none;
-    color: #000000;
+    color: var(--TEXTCOLOR2);
 }
 
 .nav_header ul a:hover {
-    color: #D82E4A;
+    color: var(--TEXTHOVER);
 }
 
 .nav_header ul img {

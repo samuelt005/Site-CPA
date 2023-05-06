@@ -1,0 +1,55 @@
+/* ========================================================================== */
+/* Light Mode */
+/* ========================================================================== */
+.light_mode {
+    --TEXTCOLOR1: #FFFFFF;
+    --TEXTCOLOR2: #000000;
+    --TEXTCOLOR3: #D82E4A;
+    --TEXTCOLOR4: #636363;
+    --TEXTCOLOR5: #636363;
+    --TEXTHOVER: #D82E4A;
+    --WHITE: #FFFFFF;
+    --BLACK: #000000;
+    --PICKLEDBLUEWOOD: #283745;
+    --CERISEREDRED: #D82E4A;
+    --DOVEGRAY: #636363;
+    --LIGHTGRAY: #C6C6C6;
+    --SHADOW: rgba(0, 0, 0, 0.25);
+}
+  
+/* ========================================================================== */
+/* Dark Mode */
+/* ========================================================================== */
+.dark_mode {
+  --TEXTCOLOR1: #e8e6e3;
+  --TEXTCOLOR2: #e8e6e3;
+  --TEXTCOLOR3: #dc425b;
+  --TEXTCOLOR4: #636363;
+  --TEXTCOLOR5: #e8e6e3;
+  --TEXTHOVER: #dc425b;
+  --WHITE: #2d2d2d;
+  --BLACK: #8c8273;
+  --PICKLEDBLUEWOOD: #202c37;
+  --CERISEREDRED: #dc425b;
+  --DOVEGRAY: #6b6458;
+  --LIGHTGRAY: #C6C6C6;
+  --SHADOW: rgba(0, 0, 0, 0.25);
+}
+
+/* ========================================================================== */
+/* Accessibility Mode */
+/* ========================================================================== */
+.a11y {
+  --TEXTCOLOR1: #FFFFFF;
+  --TEXTCOLOR2: #000000;
+  --TEXTCOLOR3: #D82E4A;
+  --TEXTCOLOR4: #636363;
+  --TEXTHOVER: #D82E4A;
+  --WHITE: #FFFFFF;
+  --BLACK: #000000;
+  --PICKLEDBLUEWOOD: #283745;
+  --CERISEREDRED: #D82E4A;
+  --DOVEGRAY: #636363;
+  --LIGHTGRAY: #C6C6C6;
+    --SHADOW: rgba(0, 0, 0, 0.25);
+}

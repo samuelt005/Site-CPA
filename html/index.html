@@ -8,26 +8,32 @@
     <link rel="shortcut icon" type="image/x-icon" href="../assets/icons/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="../css/variables.css">
     <link rel="stylesheet" type="text/css" href="../css/global.css">
     <link rel="stylesheet" type="text/css" href="../css/index.css">
     <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
 </head>
-<body>
+<body class="light_mode">
+    <!-- =================================================================== -->
+    <!-- ACCESSIBILITY AND DARK MODE BUTTONS -->
+    <!-- =================================================================== -->
+    <div>
+        <button class="dark_mode_button"><img src="../assets/icons/icon_dark_mode.png" alt=""></button>
+        <button class="a11y_mode_button"><img src="../assets/icons/icon_a11y.png" alt=""></button>
+    </div>
     <!-- =================================================================== -->
     <!-- HEADER -->
     <!-- =================================================================== -->
-    <header>
-        <include-src src="header.html"></include-src>
-    </header>
+    <include-src src="header.html"></include-src>
 
     <!-- =================================================================== -->
     <!-- MAIN -->
     <!-- =================================================================== -->
     <main>
         <div class="flex_container_main">
-            <div class="carousel_container">
+            <section class="carousel_container">
                 <div>
                     <img src="../assets/test1.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, a?</p>
@@ -40,9 +46,9 @@
                     <img src="../assets/test3.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, nulla.</p>
                 </div>
-            </div>
+            </section>
 
-            <div class="news_container">
+            <section class="news_container">
                 <ul>
                     <div>
                         <li>
@@ -97,24 +103,56 @@
                         </li>
                     </div>
                 </ul>
-            </div>
-        </div>
-        
-        <div class="empty-section">
+                <div class="more_news">
+                    <button class="more_news_button" type="submit">
+                        MAIS NOTÍCIAS DA CPA 
+                        <img src="../assets/icons/icon_arrow_white.png" alt="">
+                    </button>
+                </div>
+            </section>
+
+            <section class="about_container">
+                <div class="about_logo">
+                    <img src="../assets/Logo-CPA2.png" alt="">
+                </div>
+                <div class="about_text">
+                    <h1>O que é a <span>CPA</span>?</h1>
+                    <p>A <span>Comissão Própria de Avaliação</span> é responsável pela coordenação do processo de auto avaliação institucional, desde a elaboração do questionário até a produção do Relatório Anual de Avaliação Institucional. <br> O objetivo da CPA é avaliar o desempenho da instituição e promover a <span>melhoria contínua</span> do processo educativo, identificando pontos de melhoria e potencialidades, visando à excelência acadêmica.</p>
+                    <div class="keep_reading_button">
+                        <a href="sobre.html">
+                            <p>Continue lendo</p>
+                            <img src="../assets/icons/icon_arrow_red2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="catch_container">
+                <div class="catch_text">
+                    <p>FAÇA A DIFERENÇA!</p>
+                    <p>Ajude a CPA respondendo <br> o questionário agora<br> mesmo!</p>
+                </div>
+                <div class="catch_arrow">
+                    <img src="../assets/icons/icon_arrow_red1.png" alt="">
+                </div>
+                <div class="catch_qr_code">
+                    <img src="../assets/QR-code.png" alt="">
+                    <p>OU <a href="">CLIQUE AQUI!</a></p>
+                </div>
+            </section>
         </div>
     </main>
 
     <!-- =================================================================== -->
     <!-- FOOTER -->
     <!-- =================================================================== -->
-    <footer>
-        <include-src src="footer.html"></include-src>
-    </footer>
+    <include-src src="footer.html"></include-src>
 
     <!-- =================================================================== -->
     <!-- SCRIPTS -->
     <!-- =================================================================== -->
     <script type="text/javascript" src="../scripts/include.js"></script>
+    <script type="text/javascript" src="../scripts/color_modes.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="../slick/slick.min.js"></script>

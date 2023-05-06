@@ -8,17 +8,23 @@
     <link rel="shortcut icon" href="../assets/icons/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="../css/variables.css">
     <link rel="stylesheet" type="text/css" href="../css/global.css">
     <link rel="stylesheet" type="text/css" href="../css/contato.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
 </head>
-<body>
+<body class="light_mode">
+    <!-- =================================================================== -->
+    <!-- ACCESSIBILITY AND DARK MODE BUTTONS -->
+    <!-- =================================================================== -->
+    <div>
+        <button class="dark_mode_button"><img src="../assets/icons/icon_dark_mode.png" alt=""></button>
+        <button class="a11y_mode_button"><img src="../assets/icons/icon_a11y.png" alt=""></button>
+    </div>
     <!-- =================================================================== -->
     <!-- HEADER -->
     <!-- =================================================================== -->
-    <header>
-        <include-src src="header.html"></include-src>
-    </header>
+    <include-src src="header.html"></include-src>
 
     <!-- =================================================================== -->
     <!-- MAIN -->
@@ -85,13 +91,12 @@
     <!-- =================================================================== -->
     <!-- FOOTER -->
     <!-- =================================================================== -->
-    <footer>
-        <include-src src="footer.html"></include-src>
-    </footer>
+    <include-src src="footer.html"></include-src>
 
     <!-- =================================================================== -->
     <!-- SCRIPTS -->
     <!-- =================================================================== -->
     <script type="text/javascript" src="../scripts/include.js"></script>
+    <script type="text/javascript" src="../scripts/color_modes.js"></script>
 </body>
 </html>

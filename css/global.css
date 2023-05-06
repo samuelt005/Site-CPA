@@ -45,7 +45,7 @@ table {
 }
 
 /* ========================================================================== */
-/* Global Formatting */
+/* GLOBAL FORMATTING */
 /* ========================================================================== */
 
 body {    
@@ -54,11 +54,50 @@ body {
 }
 
 ::selection {
-	color: white;
-	background-color: #D82E4A;
+	color: var(--WHITE);
+	background-color: var(--CERISEREDRED);
 }
   
 ::-moz-selection {
-	color: white;
-	background-color: #D82E4A;
+	color: var(--WHITE);
+	background-color: var(--CERISEREDRED);
+}
+
+/* ========================================================================== */
+/* ACCESSIBILITY AND DARK MODE BUTTONS */
+/* ========================================================================== */
+.dark_mode_button {
+	position: fixed;
+	bottom: 0;
+	right: 10px;
+	z-index: 9999;
+	background-color: transparent;
+	border: none;
+	opacity: 50%;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+}
+
+.dark_mode_button img {
+	height: 30px;
+	width: 30px;
+}
+
+.a11y_mode_button {
+	position: fixed;
+	bottom: 40px;
+	right: 10px;
+	z-index: 9999;
+	background-color: transparent;
+	border: none;
+	opacity: 50%;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+}
+
+.a11y_mode_button img {
+	height: 30px;
+	width: 30px;
 }
