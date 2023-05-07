@@ -1,0 +1,73 @@
+/* ========================================================================== */
+/* MAIN FORMATTING */
+/* ========================================================================== */
+
+.sub_nav {
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    background-color: #D82E4A;
+}
+
+.sub_nav nav ul{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10em;
+    text-decoration: none;
+}
+
+.nav-bar {
+    color: black;
+    font-size: 2em;
+    text-decoration: solid;
+}
+
+.sub_nav nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.atual {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.main-text{
+    font-size: 20px;
+    margin: 70px;
+    color: white;
+    text-align: justify;
+}
+
+.flex_container_main img {
+    float: right    ;
+    margin-left: 10px; /* Adiciona um espaço entre a imagem e o texto */
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px;
+    margin-right: 50px;
+
+}
+
+
+.sub_nav-effect:hover {
+    color: grey;
+}
+
+main {
+    background-color: #283745;
+    height: 100vh;
+}
+
+.flex_container_main {
+    /* display: flex; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}

@@ -1,5 +1,5 @@
 /* ========================================================================== */
-/* Header Formatting */
+/* HEADER FORMATTING */
 /* ========================================================================== */
 
 .contato_button {
@@ -7,7 +7,7 @@
 }
 
 /* ========================================================================== */
-/* Contato Formatting */
+/* CONTATO FORMATTING */
 /* ========================================================================== */
 
 main {
@@ -88,7 +88,6 @@ main {
     color: var(--TEXTCOLOR2);
 }
 
-
 .contact_form {
     width: 600px;
     margin: 60px 0 60px 0;
@@ -168,7 +167,7 @@ main {
     height: 22px;
 }
 
-.empty-section {
+.empty_section {
     background-color: var(--WHITE);
     height: 20px;
 }

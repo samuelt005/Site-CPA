@@ -1,0 +1,103 @@
+/* ========================================================================== */
+/* HEADER FORMATTING */
+/* ========================================================================== */
+
+.documentos_button {
+    border-bottom: 2px solid var(--TEXTCOLOR2);
+}
+
+/* ========================================================================== */
+/* MAIN FORMATTING */
+/* ========================================================================== */
+
+main {
+    background-color: var(--PICKLEDBLUEWOOD);
+    padding-bottom: 84px;
+    width: 100%;
+}
+
+.flex_container_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--PICKLEDBLUEWOOD);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.legislacao, .relatorios, .sinaes_text, .sinaes_img {    
+    width: 80%;
+    margin: 20px;
+    color: var(--TEXTCOLOR1);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.legislacao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.legislacao h1, .relatorios h1, .sinaes_text h1 {
+    color: var(--TEXTCOLOR3);
+}
+
+.legislacao p {
+    text-align: justify;
+}
+
+.relatorios {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.relatorios h1 {
+
+}
+
+.relatorios p {
+    text-align: justify;
+}
+
+.sinaes_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sinaes_text h1 {
+
+}
+
+.sinaes_text p {
+    text-align: justify;
+}
+
+.flex_container_main a {
+    color: var(--LIGHTGRAY);
+}
+
+.sinaes_img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.sinaes_img img {
+    width: 50em;
+}
+
+/* ========================================================================== */
+/* CONTATO FORMATTING */
+/* ========================================================================== */
+
+.empty_section {
+    background-color: var(--WHITE);
+    height: 20px;
+}
