@@ -189,6 +189,10 @@ main {
     margin-bottom: 80px;
 }
 
+.more_news a {
+    text-decoration: none;
+}
+
 .more_news_button {
     display: flex;
     border: none;

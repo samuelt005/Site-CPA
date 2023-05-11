@@ -6,6 +6,10 @@
     border-bottom: 2px solid var(--TEXTCOLOR2);
 }
 
+.contato_button:hover {
+    border-bottom: 2px solid var(--TEXTCOLOR3);
+}
+
 /* ========================================================================== */
 /* CONTATO FORMATTING */
 /* ========================================================================== */
