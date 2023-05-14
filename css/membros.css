@@ -1,0 +1,124 @@
+/* ========================================================================== */
+/* HEADER FORMATTING */
+/* ========================================================================== */
+
+.sobre_button {
+    border-bottom: 2px solid var(--TEXTCOLOR2);
+}
+
+.sobre_button:hover {
+    border-bottom: 2px solid var(--TEXTCOLOR3);
+}
+
+/* ========================================================================== */
+/* MAIN FORMATTING */
+/* ========================================================================== */
+
+.sub_nav {
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    background-color: #D82E4A;
+}
+
+.sub_nav nav ul{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10em;
+    text-decoration: none;
+}
+
+.nav-bar {
+    color: black;
+    font-size: 2em;
+    text-decoration: solid;
+}
+
+.sub_nav nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.atual {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+    background-color: var(--PICKLEDBLUEWOOD);
+    padding-bottom: 84px;
+    width: 100%;
+}
+
+.flex_container_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--PICKLEDBLUEWOOD);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+
+
+.main_container {
+    background-color: var(--PICKLEDBLUEWOOD);
+}
+
+.main_container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+}
+
+.main_container ul li {
+    display: flex;
+    box-shadow: 0px 0px 15px var(--SHADOW);
+    border-radius: 8px;
+    height: 180px;
+    width: 400px;
+    margin: 50px;
+    background-color: var(--WHITE);
+}
+
+.member_image {
+    height: 160px;
+    width: 160px;
+    border-radius: 180px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.member_info {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 4px 0 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.member_info p {
+    line-height: 20px;
+    color: var(--TEXTCOLOR2);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.member_info p:first-child {
+    font-weight: bold;
+}
+
+
+
+
+
+.empty_section {
+    background-color: var(--WHITE);
+    height: 20px;
+}
