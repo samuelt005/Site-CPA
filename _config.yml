@@ -1,6 +1,0 @@
-defaults:
-  - scope:
-      path: "html"
-      type: "html"
-    values:
-      layout: "default"
