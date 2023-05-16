@@ -1,16 +1,4 @@
 /* ========================================================================== */
-/* HEADER FORMATTING */
-/* ========================================================================== */
-
-.documentos_button {
-    border-bottom: 2px solid var(--TEXTCOLOR2);
-}
-
-.documentos_button:hover {
-    border-bottom: 2px solid var(--TEXTCOLOR3);
-}
-
-/* ========================================================================== */
 /* MAIN FORMATTING */
 /* ========================================================================== */
 
@@ -23,7 +11,6 @@ main {
 .flex_container_main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background-color: var(--PICKLEDBLUEWOOD);
@@ -31,62 +18,77 @@ main {
     font-size: 18px;
 }
 
-.legislacao, .relatorios, .sinaes_text, .sinaes_img {    
+.news {    
     width: 80%;
     margin: 20px;
     color: var(--TEXTCOLOR1);
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
-}
-
-.legislacao {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin-top: 60px;
 }
 
-.legislacao h1, .relatorios h1, .sinaes_text h1 {
+.news {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px 0;
+}
+
+.news h1 {
     color: var(--TEXTCOLOR3);
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.legislacao p {
+.news p {
     text-align: justify;
 }
 
-.relatorios {
+.news_img {
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
-.relatorios p {
-    text-align: justify;
+.news_img img {
+    width: 70vw;
+    height: 25vw;
+    border-radius: 25px;
+    object-fit: cover;
+    margin: 40px;
 }
 
-.sinaes_text {
+.news_img img:hover {
+    cursor: pointer;
+}
+
+.news p {
+    margin: 0 20px 20px 20px;
+}
+
+.news_more_img {
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
 }
 
-.sinaes_text p {
-    text-align: justify;
+.news_more_img img {
+    width: 250px;
+    height: 150px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin: 20px;
 }
 
-.flex_container_main a {
-    color: var(--LIGHTGRAY);
-}
-
-.sinaes_img {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 60px;
-}
-
-.sinaes_img img {
-    width: 50em;
+.news_more_img img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 /* ========================================================================== */
