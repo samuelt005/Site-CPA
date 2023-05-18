@@ -30,21 +30,19 @@
 }
 
 .nav-bar {
-    color: black;
+    color: var(--PICKLEDBLUEWOOD);
     font-size: 2em;
     text-decoration: solid;
 }
 
 .sub_nav nav ul a {
-    color: white;
+    font-size: 18px;
     text-decoration: none;
+    color: var(--TEXTCOLOR1);
 }
 
 .atual {
-    color: black;
-    font-style: normal;
-    font-weight: bold;
-    text-decoration: underline;
+    border-bottom: 2px solid var(--TEXTCOLOR1);
 }
 
 .main_text {
@@ -66,7 +64,7 @@
     padding: 40px;
     margin-left: 20px; /* Adiciona um espaço entre a imagem e o texto */
     width: 400px;
-    background-color: var(--WHITE);
+    background-color: #FFFFFF;
     border-radius: 30px;
 }
 

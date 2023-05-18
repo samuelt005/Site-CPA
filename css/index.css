@@ -258,9 +258,15 @@ main {
     margin-bottom: 20px;
 }
 
-.keep_reading_button a {
+.keep_reading_button {
     display: flex;
     justify-content: flex-end;
+    color: var(--TEXTCOLOR3);
+    text-decoration: none;
+}
+
+.keep_reading_button a {
+    display: flex;
     color: var(--TEXTCOLOR3);
     text-decoration: none;
 }
