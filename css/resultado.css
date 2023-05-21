@@ -92,6 +92,12 @@ main {
     margin: 10px;
 }
 
+.news_button_content {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 .news_text h1 {
     margin: 5px;
     font-size: 24px;

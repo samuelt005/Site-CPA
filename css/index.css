@@ -125,6 +125,10 @@ main {
     margin: 40px 40px 20px 40px;
 }
 
+.news_container a {
+    text-decoration: none;
+}
+
 .news_container ul li {
     display: flex;
     box-shadow: 0px 0px 15px var(--SHADOW);

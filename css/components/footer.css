@@ -15,6 +15,11 @@ footer {
     width: 35%;
 }
 
+.logo_footer_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .logo_footer {
     display: flex;
     justify-content: flex-end;

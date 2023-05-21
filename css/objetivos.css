@@ -1,38 +1,42 @@
-main{
-background-color: #283745;
-height: 100vh;
-}
-.sub_nav {
-    font-family: 'Poppins', sans-serif;
-    color:white;
-    background-color: #D82E4A;
+/* ========================================================================== */
+/* HEADER FORMATTING */
+/* ========================================================================== */
+
+.sobre_button {
+    border-bottom: 2px solid var(--TEXTCOLOR2);
 }
 
-.sub_nav nav ul{
-    padding: 10px;
+.sobre_button:hover {
+    border-bottom: 2px solid var(--TEXTCOLOR3);
+}
+
+/* ========================================================================== */
+/* SUB-NAV */
+/* ========================================================================== */
+
+.sub_nav li:nth-child(3) {
+    border-bottom: 2px solid var(--TEXTCOLOR1);
+}
+
+/* ========================================================================== */
+/* MAIN FORMATTING */
+/* ========================================================================== */
+
+main {
+    background-color: var(--PICKLEDBLUEWOOD);
+    padding-bottom: 84px;
+    width: 100%;
+}
+
+.flex_container_main {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 0 10em;
-    text-decoration: none;
-}
-
-.nav-bar {
-    color: black;
-    font-size: 2em;
-    text-decoration: solid;
-}
-
-.sub_nav nav ul a {
-    color: white;
-    text-decoration: none;
-}
-
-.atual {
-    color: black;
-    font-style: normal;
-    font-weight: bold;
-    text-decoration: underline;
+    flex-wrap: wrap;
+    background-color: var(--PICKLEDBLUEWOOD);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 }
 
 .list{
@@ -42,12 +46,20 @@ height: 100vh;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
-.container-list{
+
+.container_list {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin: 60px 0;
+    color: white;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
 }
-.main-ul{
+
+.main_ul{
     list-style-type: disc;
 }

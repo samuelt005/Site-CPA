@@ -11,41 +11,16 @@
 }
 
 /* ========================================================================== */
-/* MAIN FORMATTING */
+/* SUB-NAV */
 /* ========================================================================== */
 
-.sub_nav {
-    font-family: 'Poppins', sans-serif;
-    color:white;
-    background-color: #D82E4A;
+.sub_nav li:nth-child(5) {
+    border-bottom: 2px solid var(--TEXTCOLOR1);
 }
 
-.sub_nav nav ul{
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 10em;
-    text-decoration: none;
-}
-
-.nav-bar {
-    color: black;
-    font-size: 2em;
-    text-decoration: solid;
-}
-
-.sub_nav nav ul a {
-    color: white;
-    text-decoration: none;
-}
-
-.atual {
-    color: black;
-    font-style: normal;
-    font-weight: bold;
-    text-decoration: underline;
-}
+/* ========================================================================== */
+/* MAIN FORMATTING */
+/* ========================================================================== */
 
 main {
     background-color: var(--PICKLEDBLUEWOOD);
@@ -64,8 +39,6 @@ main {
     font-size: 18px;
 }
 
-
-
 .main_container {
     background-color: var(--PICKLEDBLUEWOOD);
 }
@@ -74,7 +47,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 40px;
+    margin: 10px 60px;
 }
 
 .main_container ul li {
@@ -113,10 +86,6 @@ main {
 .member_info p:first-child {
     font-weight: bold;
 }
-
-
-
-
 
 .empty_section {
     background-color: var(--WHITE);

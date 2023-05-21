@@ -1,69 +1,76 @@
-    main{
-    background-color: #283745;
-    padding-bottom: 2%;
-    width: 100%
+/* ========================================================================== */
+/* HEADER FORMATTING */
+/* ========================================================================== */
+
+.sobre_button {
+    border-bottom: 2px solid var(--TEXTCOLOR2);
+}
+
+.sobre_button:hover {
+    border-bottom: 2px solid var(--TEXTCOLOR3);
+}
+
+/* ========================================================================== */
+/* SUB-NAV */
+/* ========================================================================== */
+
+.sub_nav li:nth-child(7) {
+    border-bottom: 2px solid var(--TEXTCOLOR1);
+}
+
+/* ========================================================================== */
+/* MAIN FORMATTING */
+/* ========================================================================== */
+
+main {
+    background-color: var(--PICKLEDBLUEWOOD);
+    padding-bottom: 84px;
+    width: 100%;
+}
+
+.flex_container_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--PICKLEDBLUEWOOD);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.main-text {
+    width: 80%;
+    color: white;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 60px;
+}
+
+.container-list{
+    display: flex;
+    width: 80%;
+    justify-content: left;
+    align-items: justify;
+    margin-bottom: 60px;
+}
+
+.main-ul{
+    list-style-type: disc;
     
-    }
-    .sub_nav {
-        font-family: 'Poppins', sans-serif;
-        color:white;
-        background-color: #D82E4A;
-    }
-    
-    .sub_nav nav ul{
-        padding: 10px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 0 10em;
-        text-decoration: none;
-    }
-    
-    .nav-bar {
-        color: black;
-        font-size: 2em;
-        text-decoration: solid;
-    }
-    
-    .sub_nav nav ul a {
-        color: white;
-        text-decoration: none;
-    }
-    
-    .atual {
-        color: black;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: underline;
-    }
-    .main-text{
-        color: white;
-        text-align: justify;
-        font-family: 'Poppins', sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 30px;
-        margin: 40px;
-    }
-    .container-list{
-        display: flex;
-         justify-content: left;
-        align-items: justify; 
-        margin: 20px;
-        margin-left: 100px;
-    }
-    .main-ul{
-        list-style-type: disc;
-        
-    }
-    .list{
-        color: white;
-        text-align: justify;
-        font-family: 'Poppins', sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 30px;
-        margin: 40px;
-    }
+}
+
+.list{
+    color: white;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 40px;
+}

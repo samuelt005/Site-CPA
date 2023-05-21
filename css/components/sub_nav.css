@@ -1,0 +1,34 @@
+/* ========================================================================== */
+/* MAIN FORMATTING */
+/* ========================================================================== */
+
+.sub_nav {
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    background-color: #D82E4A;
+}
+
+.sub_nav nav ul{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10em;
+    text-decoration: none;
+}
+
+.sub_nav_bar {
+    color: var(--PICKLEDBLUEWOOD);
+    font-size: 2em;
+    text-decoration: solid;
+}
+
+.sub_nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--TEXTCOLOR1);
+}
+
+.sub_nav-effect:hover {
+    color: grey;
+}
