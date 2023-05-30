@@ -9,24 +9,30 @@
 }
 
 .sub_nav nav ul{
-    padding: 10px;
+    padding: 15px 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin: 0 10em;
     text-decoration: none;
-}
-
-.sub_nav_bar {
-    color: var(--PICKLEDBLUEWOOD);
-    font-size: 2em;
-    text-decoration: solid;
 }
 
 .sub_nav a {
     font-size: 18px;
     text-decoration: none;
     color: var(--TEXTCOLOR1);
+    font-weight: 600;
+}
+
+.sub_nav ul a:hover {
+    color: var(--PICKLEDBLUEWOOD);
+}
+
+.sub_nav_bar {
+    color: var(--PICKLEDBLUEWOOD);
+    font-size: 2em;
+    text-decoration: solid;
+    font-weight: 100;
 }
 
 .sub_nav-effect:hover {

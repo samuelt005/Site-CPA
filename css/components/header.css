@@ -10,9 +10,16 @@ header {
 
 .flex_container_header {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_content {
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    width: 90%;
 }
 
 .flex_container_header div {
@@ -27,7 +34,15 @@ header {
 .form_header {
     border: 1px solid var(--DOVEGRAY);
     border-radius: 8px;
-    width: 300px;
+    width: 400px;
+    height: 35px;
+    padding-top: 6px;
+}
+
+.form_header form {
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
 }
 
 .form_header_input {
@@ -45,6 +60,7 @@ header {
     border: none;
     background-color: transparent;
     padding: 0;
+    margin-right: 10px;
 }
 
 .form_header_search img{
@@ -73,6 +89,8 @@ header {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
     color: var(--TEXTCOLOR2);
 }
 

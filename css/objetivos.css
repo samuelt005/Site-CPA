@@ -18,6 +18,10 @@
     border-bottom: 2px solid var(--TEXTCOLOR1);
 }
 
+.sub_nav li:nth-child(3):hover {
+    border-bottom: 2px solid var(--PICKLEDBLUEWOOD);
+}
+
 /* ========================================================================== */
 /* MAIN FORMATTING */
 /* ========================================================================== */

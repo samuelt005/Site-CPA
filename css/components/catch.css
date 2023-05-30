@@ -64,7 +64,7 @@
 
 .catch_qr_code p {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 16px;
     margin-bottom: 20px;
     color: var(--TEXTCOLOR2);
@@ -74,3 +74,4 @@
     text-decoration: none;
     color: var(--TEXTCOLOR3);
 }
+
