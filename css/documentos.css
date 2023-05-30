@@ -37,7 +37,7 @@ main {
     color: var(--TEXTCOLOR1);
     font-style: normal;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 1.8em;
 }
 
 .legislacao {

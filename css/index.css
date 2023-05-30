@@ -165,7 +165,7 @@ main {
 }
 
 .news_text p {
-    line-height: 20px;
+    line-height: 1.1em;
     color: var(--TEXTCOLOR2);
 }
 
@@ -253,7 +253,7 @@ main {
 }
 
 .about_text p {
-    line-height: 35px;
+    line-height: 1.6em;
 }
 
 .about_text h1 {

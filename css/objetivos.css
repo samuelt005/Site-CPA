@@ -43,9 +43,9 @@ main {
     font-size: 18px;
 }
 
-.list{
+.main_ul li{
     color: white;
-    padding: 10px;
+    line-height: 2.4em;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;

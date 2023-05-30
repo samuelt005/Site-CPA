@@ -51,7 +51,7 @@ main {
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 1.8em;
     margin-top: 60px;
 }
 
@@ -75,6 +75,6 @@ main {
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 1.8em;
     margin: 40px;
 }
