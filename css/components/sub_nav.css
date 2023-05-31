@@ -6,6 +6,7 @@
     font-family: 'Poppins', sans-serif;
     color:white;
     background-color: #D82E4A;
+    user-select: none;
 }
 
 .sub_nav nav ul{

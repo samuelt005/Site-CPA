@@ -116,6 +116,7 @@ main {
 
 .news_container {
     background-color: var(--WHITE);
+    user-select: none;
 }
 
 .news_container ul {
@@ -236,6 +237,7 @@ main {
 
 .about_logo img {
     height: 350px;
+    user-select: none;
 }
 
 .about_text {
@@ -267,6 +269,7 @@ main {
     justify-content: flex-end;
     color: var(--TEXTCOLOR3);
     text-decoration: none;
+    user-select: none;
 }
 
 .keep_reading_button a {

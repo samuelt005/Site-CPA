@@ -6,6 +6,7 @@ header {
     width: 100%;
     align-self: center;
     background-color: var(--WHITE);
+    user-select: none;
 }
 
 .flex_container_header {
