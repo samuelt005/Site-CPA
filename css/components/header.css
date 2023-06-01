@@ -101,4 +101,125 @@ header {
 
 .nav_header ul img {
     height: 16px;
+    margin-bottom: -2px;
+}
+
+/* ========================================================================== */
+/* RESPONSIVITY */
+/* ========================================================================== */
+
+/* -------------------------------------------------------------------------- */
+/* IMAGES */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 385px) {
+    .images_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+/* -------------------------------------------------------------------------- */
+/* NAVBAR DROPDOWN */
+/* -------------------------------------------------------------------------- */
+
+.nav_header_resp {
+    display: none;
+}
+
+@media (max-width: 1350px) {
+    .nav_header_resp {
+        display: inline-block;
+        position: relative;
+    }
+
+    .nav_header {
+        display: none;
+    }
+}
+
+@media (max-width: 490px) {
+    .dd_menu {
+        left: -80px;
+    }
+
+    .flex_container_header div {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 872px) and (min-width:828px) {
+    .nav_header_resp {
+        display: none;
+    }
+
+    .nav_header {
+        display: flex;
+    }
+}
+
+.dd_button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.dd_button img {
+    width: 40px;
+}
+
+.dd_input {
+    display: none;
+}
+
+.dd_menu {
+    width: 200px;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    border-radius: 8px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 var(--SHADOW);
+    background-color: #ffffff;
+    list-style-type: none;
+    z-index: 9999;
+}
+
+.dd_input + .dd_menu {
+    display: none;
+} 
+
+.dd_input:checked + .dd_menu {
+    display: block;
+} 
+
+.dd_menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.dd_menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--TEXTCOLOR2);
+}
+
+.dd_menu li a:hover {
+    color: var(--TEXTHOVER);
+}
+
+.dd_menu li.divider{
+    padding: 0;
+    border-bottom: 1px solid var(--DOVEGRAY);
 }

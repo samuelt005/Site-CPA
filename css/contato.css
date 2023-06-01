@@ -34,7 +34,7 @@ main {
     background-color: var(--WHITE);
     border-radius: 25px;
     padding: 20px;
-    margin: 60px 0 60px 0;
+    margin: 60px 20px;
     width: 400px;
     height: 366px;
 }
@@ -44,6 +44,7 @@ main {
     font-weight: 600;
     color: var(--CERISEREDRED);
     margin: 10px 10px 40px 0;
+    text-align: center;
 }
 
 .contact_info table {
@@ -113,7 +114,7 @@ main {
 
 .contact_form {
     width: 600px;
-    margin: 60px 0 60px 0;
+    margin: 60px 20px;
     justify-content: left;
     align-items: center;
     user-select: none;
@@ -175,7 +176,7 @@ main {
     border: none;
     border-radius: 8px;
     background-color: var(--CERISEREDRED);
-    width: 50%;
+    width: 300px;
     height: 40px;
     margin-top: 2%;
     padding-left: 2%;
@@ -194,4 +195,38 @@ main {
 .empty_section {
     background-color: var(--WHITE);
     height: 20px;
+}
+
+/* ========================================================================== */
+/* RESPONSIVITY */
+/* ========================================================================== */
+
+@media (max-width: 800px) {
+    .contact_form {
+        margin: 0 20px 60px 20px;
+    }
+}
+
+@media (max-width: 1119px) {
+    .contact_form {
+        margin: 0 20px 60px 20px;
+    }
+
+    .contact_send_button_resp {
+        display: flex;
+        justify-content: center;
+    }
+
+    .name_and_mail {
+        flex-wrap: wrap;
+    }
+
+    .contact_name {
+        width: 100%;
+        margin-bottom: 22px;
+    }
+
+    .contact_mail {
+        width: 100%;
+    }
 }

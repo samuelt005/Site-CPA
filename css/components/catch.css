@@ -79,3 +79,36 @@
     color: var(--TEXTCOLOR3);
 }
 
+/* ========================================================================== */
+/* RESPONSIVITY */
+/* ========================================================================== */
+
+.catch_resp {
+    display: none;
+}
+
+@media(max-width:920px) {
+    .catch_qr_code, .catch_arrow {
+        display: none;
+    }
+    
+    .catch_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .catch_resp {
+        display: inline;
+        margin-top: 10px;
+        user-select: none;
+    }
+
+    .catch_resp p a {
+        text-decoration: none;
+        color: var(--TEXTCOLOR3);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+    }
+
+}
