@@ -5,7 +5,7 @@
 .sub_nav {
     font-family: 'Poppins', sans-serif;
     color:white;
-    background-color: #D82E4A;
+    background-color: var(--CERISEREDRED);
     user-select: none;
 }
 
@@ -38,4 +38,102 @@
 
 .sub_nav-effect:hover {
     color: grey;
+}
+
+/* ========================================================================== */
+/* RESPONSIVITY */
+/* ========================================================================== */
+
+/* -------------------------------------------------------------------------- */
+/* SUBNAVBAR DROPDOWN */
+/* -------------------------------------------------------------------------- */
+
+.sub_nav_resp_container {
+    display: none;
+}
+
+@media (max-width: 1020px) {
+    .sub_nav_resp_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--CERISEREDRED);
+        padding: 9.5px;
+    }
+
+    .sub_nav {
+        display: none;
+    }
+}
+
+.sub_nav_resp {
+    display: inline-block;
+    position: relative;
+}
+
+.sub_dd_button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: var(--CERISEREDRED);
+}
+
+.sub_dd_button img {
+    width: 40px;
+    filter: invert(100%) brightness(10000%);
+}
+
+.sub_dd_input {
+    display: none;
+}
+
+.sub_dd_menu {
+    width: 200px;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    left: -80px;
+    border-radius: 8px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 var(--SHADOW);
+    background-color: #ffffff;
+    list-style-type: none;
+    z-index: 9999;
+}
+
+.sub_dd_input + .sub_dd_menu {
+    display: none;
+} 
+
+.sub_dd_input:checked + .sub_dd_menu {
+    display: block;
+} 
+
+.sub_dd_menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.sub_dd_menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.sub_dd_menu li a:hover {
+    color: var(--TEXTHOVER);
+}
+
+.sub_dd_menu li.divider{
+    padding: 0;
+    border-bottom: 1px solid var(--DOVEGRAY);
 }

@@ -2,24 +2,47 @@
 <head>
     <link rel="stylesheet" href="/css/components/sub_nav.css">
 </head>
-<div class="sub_nav">
-    <nav>
-        <ul>
-            <li>
-                <a class="main-header-effect" href="/html/sobre.html">Sobre</a>    
-            </li>
-            <li class="sub_nav_bar">|</li>
-            <li>
-                <a class="main-header-effect" href="/html/objetivos.html">Objetivos</a>
-            </li>
-            <li class="sub_nav_bar">|</li>
-            <li>
-                <a class="main-header-effect" href="/html/membros.html">Membros</a>
-            </li>
-            <li class="sub_nav_bar">|</li>
-            <li>
-                <a class="main-header-effect" href="/html/autoavaliacao.html">Autoavaliação</a>
-            </li>
-        </ul>
-    </nav>
+<div>    
+    <div class="sub_nav">
+        <nav>
+            <ul>
+                <li class="default_enabled">
+                    <a class="main-header-effect" href="sobre.html">Sobre</a>    
+                </li>
+                <li class="sub_nav_bar">|</li>
+                <li class="default_enabled">
+                    <a class="main-header-effect" href="objetivos.html">Objetivos</a>
+                </li>
+                <li class="sub_nav_bar">|</li>
+                <li class="default_enabled">
+                    <a class="main-header-effect" href="membros.html">Membros</a>
+                </li>
+                <li class="sub_nav_bar">|</li>
+                <li class="default_enabled">
+                    <a class="main-header-effect" href="autoavaliacao.html">Autoavaliação</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="sub_nav_resp_container">
+        <div class="sub_nav_resp">
+            <label>
+                <div class="sub_dd_button">
+                <img src="/assets/icons/dropdown_button.png" alt="">
+                </div>
+                <input type="checkbox" class="sub_dd_input" id="test">
+        
+                <ul class="sub_dd_menu">
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li class="divider"></li>
+                    <li><a href="objetivos.html">Objetivos</a></li>
+                    <li class="divider"></li>
+                    <li><a href="membros.html">Membros</a></li>
+                    <li class="divider"></li>
+                    <li><a href="autoavaliacao.html">Autoavaliação</a></li>
+                </ul>
+            </label>
+        </div>
+    </div>
 </div>

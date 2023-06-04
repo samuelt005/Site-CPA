@@ -51,7 +51,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 10px 60px;
+    max-width: 1400px;
+    margin: 20px auto;
 }
 
 .main_container ul li {
@@ -60,7 +61,7 @@ main {
     border-radius: 8px;
     height: 180px;
     width: 400px;
-    margin: 50px;
+    margin: 40px 50px;
     background-color: var(--WHITE);
 }
 
@@ -94,4 +95,18 @@ main {
 .empty_section {
     background-color: var(--WHITE);
     height: 20px;
+}
+
+/* ========================================================================== */
+/* RESPONSIVITY */
+/* ========================================================================== */
+
+@media(max-width:1000px){
+    .main_container ul li {
+        margin: 20px 50px;
+    }
+
+    .main_container ul {
+        margin: 40px auto;
+    }
 }

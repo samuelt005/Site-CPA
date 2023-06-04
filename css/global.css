@@ -66,38 +66,24 @@ body {
 /* ========================================================================== */
 /* ACCESSIBILITY AND DARK MODE BUTTONS */
 /* ========================================================================== */
-.dark_mode_button {
+.dark_mode_button, .a11y_mode_button {
 	position: fixed;
-	bottom: 0;
-	right: 10px;
+	top: 0;
+	right: 5px;
 	z-index: 9999;
 	background-color: transparent;
 	border: none;
 	opacity: 50%;
-	height: 40px;
-	width: 40px;
+	height: 30px;
+	width: 30px;
 	cursor: pointer;
 }
 
-.dark_mode_button img {
-	height: 30px;
-	width: 30px;
+.dark_mode_button img, .a11y_mode_button img {
+	height: 20px;
+	width: 20px;
 }
 
 .a11y_mode_button {
-	position: fixed;
-	bottom: 40px;
-	right: 10px;
-	z-index: 9999;
-	background-color: transparent;
-	border: none;
-	opacity: 50%;
-	height: 40px;
-	width: 40px;
-	cursor: pointer;
-}
-
-.a11y_mode_button img {
-	height: 30px;
-	width: 30px;
+	top: 35px;
 }

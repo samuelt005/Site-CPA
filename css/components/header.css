@@ -166,6 +166,7 @@ header {
     background-color: #ffffff;
     cursor: pointer;
     white-space: nowrap;
+    background-color: transparent;
 }
 
 .dd_button img {
@@ -212,7 +213,7 @@ header {
     text-decoration: none;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    color: var(--TEXTCOLOR2);
+    color: #000000;
 }
 
 .dd_menu li a:hover {

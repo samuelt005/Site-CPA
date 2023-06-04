@@ -80,3 +80,8 @@ main {
 /* RESPONSIVITY */
 /* ========================================================================== */
 
+@media(max-width:900px){
+    .img_container{
+        display:none;
+    }
+}

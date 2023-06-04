@@ -43,7 +43,7 @@ main {
     font-size: 18px;
 }
 
-.main_ul li{
+.main_ul li {
     color: white;
     line-height: 2.4em;
     text-align: justify;
@@ -62,8 +62,13 @@ main {
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
+    width: 80%;
 }
 
-.main_ul{
+.main_ul {
     list-style-type: disc;
 }
+
+/* ========================================================================== */
+/* RESPONSIVITY */
+/* ========================================================================== */
