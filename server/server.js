@@ -17,7 +17,7 @@ const port = 3000;
 
 app.listen(port, '0.0.0.0', () => {
   const networkInterfaces = os.networkInterfaces();
-  const interfaceName = 'Ethernet'; // Substitua pelo nome da sua interface de rede
+  const interfaceName = 'Wi-Fi'; // Substitua pelo nome da sua interface de rede
   const networkInterface = networkInterfaces[interfaceName];
 
   let ipAddress = '';
