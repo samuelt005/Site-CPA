@@ -63,12 +63,12 @@ main {
     margin-bottom: 60px;
 }
 
-.main-ul{
+.main_ul{
     list-style-type: disc;
-    
+    width: 100%;
 }
 
-.list{
+.eixos{
     color: white;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
@@ -76,5 +76,19 @@ main {
     font-style: normal;
     font-weight: 600;
     line-height: 1.8em;
-    margin: 40px;
+    margin: 40px 0 40px 20px;
+    text-align: left;
+}
+
+.dimensoes {
+    margin: 0 0 5px 20px;
+}
+
+/* ========================================================================== */
+/* RESPONSIVITY */
+/* ========================================================================== */
+
+@media(max-width:920px) {
+    .main_ul{
+    }
 }

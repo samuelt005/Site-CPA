@@ -296,6 +296,15 @@ main {
     .about_logo {
         display: none;
     }
+
+    .about_text {
+        width: 80%;
+    }
+
+    .about_text p {
+        line-height: 1.2em;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width:500px) {
@@ -313,8 +322,4 @@ main {
         text-align: center;
         margin: 0 20px 5px 0;
     }
-}
-
-@media(max-width:1000px) {
-    
 }

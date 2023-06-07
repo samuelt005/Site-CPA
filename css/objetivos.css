@@ -45,8 +45,9 @@ main {
 
 .main_ul li {
     color: white;
-    line-height: 2.4em;
-    text-align: justify;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    text-align: left;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
@@ -68,7 +69,3 @@ main {
 .main_ul {
     list-style-type: disc;
 }
-
-/* ========================================================================== */
-/* RESPONSIVITY */
-/* ========================================================================== */
