@@ -322,4 +322,12 @@ main {
         text-align: center;
         margin: 0 20px 5px 0;
     }
+
+    .carousel_container img {
+        height: 400px;
+    }
+
+    .carousel_container {
+        height: 430px;
+    }
 }
