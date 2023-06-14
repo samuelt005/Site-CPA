@@ -111,4 +111,17 @@
         font-size: 42px;
     }
 
+    .catch_text p:first-of-type {
+        font-size: 36px;
+        line-height: 1.2em;
+    }
+
+    .catch_text p:nth-of-type(2) {
+        font-size: 22px;
+    }
+
+    .catch_resp p a {
+        font-size: 36px;
+    }
+
 }

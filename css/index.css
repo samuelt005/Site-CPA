@@ -277,6 +277,7 @@ main {
     display: flex;
     color: var(--TEXTCOLOR3);
     text-decoration: none;
+    align-items: center;
 }
 
 .keep_reading_button p {
@@ -301,9 +302,23 @@ main {
         width: 80%;
     }
 
+    .about_text h1 {
+        font-size: 30px;
+    }
+
     .about_text p {
         line-height: 1.2em;
         margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .keep_reading_button p {
+        margin-bottom: 0;
+    }
+
+    .keep_reading_button img {
+        height: 30px;
+        width: auto;
     }
 }
 
@@ -329,5 +344,13 @@ main {
 
     .carousel_container {
         height: 430px;
+    }
+}
+
+@media(max-width:900px){
+
+    .carousel_container p {
+        font-size: 20px;
+        line-height: 1.4em;
     }
 }

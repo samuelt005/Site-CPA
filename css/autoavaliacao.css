@@ -88,7 +88,9 @@ main {
 /* RESPONSIVITY */
 /* ========================================================================== */
 
-@media(max-width:920px) {
-    .main_ul{
+@media(max-width:900px){
+    .main-text p {
+        font-size: 16px;
+        line-height: 1.6em;
     }
 }

@@ -147,3 +147,10 @@ main {
 /* RESPONSIVITY */
 /* ========================================================================== */
 
+@media(max-width:900px){
+
+    .flex_container_main p, .flex_container_main h1 {
+        font-size: 16px;
+        line-height: 1.6em;
+    }
+}
