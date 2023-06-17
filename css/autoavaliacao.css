@@ -39,7 +39,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     background-color: var(--PICKLEDBLUEWOOD);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
@@ -47,7 +47,7 @@ main {
     width: 80%;
     color: white;
     text-align: justify;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -71,7 +71,7 @@ main {
 .eixos{
     color: white;
     text-align: justify;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;

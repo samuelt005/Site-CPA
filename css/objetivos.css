@@ -39,7 +39,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     background-color: var(--PICKLEDBLUEWOOD);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
@@ -48,7 +48,7 @@ main {
     line-height: 1.4em;
     margin-bottom: 20px;
     text-align: left;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
@@ -59,7 +59,7 @@ main {
     margin: 60px 0;
     color: white;
     text-align: justify;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;

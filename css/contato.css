@@ -24,7 +24,7 @@ main {
     background-color: var(--PICKLEDBLUEWOOD);
     justify-content: space-evenly;
     flex-wrap: wrap;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
@@ -125,7 +125,7 @@ main {
 }
 
 .contact_name, .contact_mail, .contact_subject, .contact_message, .contact_whatsapp {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     border-radius: 8px;
     border: var(--WHITE);
     color: var(--TEXTCOLOR3);
@@ -180,7 +180,7 @@ main {
     height: 40px;
     margin-top: 2%;
     padding-left: 2%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 22px;
     color: var(--TEXTCOLOR1);
     cursor: pointer;    

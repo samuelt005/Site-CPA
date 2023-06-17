@@ -13,7 +13,7 @@ main {
     flex-direction: column;
     background-color: var(--WHITE);
     flex-wrap: wrap;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
     justify-content: center;
 }
@@ -206,7 +206,7 @@ main {
     background-color: var(--CERISEREDRED);
     width: 50%;
     height: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;

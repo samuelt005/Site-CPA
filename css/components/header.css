@@ -52,7 +52,7 @@ header {
     outline: none;
     width: 250px;
     align-self: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
     margin-left: 10px;
 }
@@ -87,7 +87,7 @@ header {
 }
 
 .nav_header ul li a {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
     text-decoration: none;
     font-style: normal;
@@ -215,7 +215,7 @@ header {
     padding: 10px 20px;
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     color: #000000;
 }
 

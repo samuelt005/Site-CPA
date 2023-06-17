@@ -27,7 +27,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     background-color: var(--PICKLEDBLUEWOOD);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
 }
 

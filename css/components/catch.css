@@ -7,7 +7,7 @@
     background-color: var(--WHITE);
     justify-content: center;
     padding: 40px 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
 }
 
 .catch_text {

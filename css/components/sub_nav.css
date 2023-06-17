@@ -3,7 +3,7 @@
 /* ========================================================================== */
 
 .sub_nav {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     color:white;
     background-color: var(--CERISEREDRED);
     user-select: none;
@@ -125,7 +125,7 @@
     padding: 10px 20px;
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     color: #000000;
 }
 

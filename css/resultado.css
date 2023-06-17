@@ -15,7 +15,7 @@ main {
     align-items: center;
     background-color: var(--PICKLEDBLUEWOOD);
     flex-wrap: wrap;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
     padding: 60px 0;
 }
@@ -60,7 +60,7 @@ main {
     outline: none;
     width: 250px;
     align-self: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
     margin-left: 10px;
 }
@@ -100,7 +100,7 @@ main {
 .ordering_filter select, .date_filter select {
     background-color: transparent;
     border: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
     font-size: 18px;
     color: var(--TEXTCOLOR3);
 }
