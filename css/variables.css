@@ -15,6 +15,7 @@
     --DOVEGRAY: #636363;
     --LIGHTGRAY: #C6C6C6;
     --SHADOW: rgba(0, 0, 0, 0.25);
+    --IMG_FILTER: none;
 }
   
 /* ========================================================================== */
@@ -23,17 +24,18 @@
 .dark_mode {
   --TEXTCOLOR1: #e8e6e3;
   --TEXTCOLOR2: #e8e6e3;
-  --TEXTCOLOR3: #dc425b;
+  --TEXTCOLOR3: #D82E4A;
   --TEXTCOLOR4: #636363;
   --TEXTCOLOR5: #e8e6e3;
-  --TEXTHOVER: #dc425b;
+  --TEXTHOVER: #D82E4A;
   --WHITE: #2d2d2d;
   --BLACK: #8c8273;
-  --PICKLEDBLUEWOOD: #202c37;
-  --CERISEREDRED: #dc425b;
+  --PICKLEDBLUEWOOD: #181818;
+  --CERISEREDRED: #222222;
   --DOVEGRAY: #6b6458;
   --LIGHTGRAY: #C6C6C6;
   --SHADOW: rgba(0, 0, 0, 0.25);
+  --IMG_FILTER: invert(100%) brightness(10000%);
 }
 
 .dark_mode_img {
@@ -51,7 +53,7 @@
   --TEXTHOVER: #D82E4A;
   --WHITE: #FFFFFF;
   --BLACK: #000000;
-  --PICKLEDBLUEWOOD: #283745;
+  --PICKLEDBLUEWOOD: #202c37;
   --CERISEREDRED: #D82E4A;
   --DOVEGRAY: #636363;
   --LIGHTGRAY: #C6C6C6;

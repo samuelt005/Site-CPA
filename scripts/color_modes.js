@@ -1,3 +1,6 @@
+// =============================================================================
+// SCRIPT PARA BOTÃO DARK MODE
+// =============================================================================
 const toggleButton = document.querySelector('.dark_mode_button');
 const imgElements = document.getElementsByClassName('images_header');
 const bodyElement = document.body;

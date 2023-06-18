@@ -43,7 +43,7 @@ main {
     font-size: 18px;
 }
 
-.main-text {
+.main_text {
     width: 80%;
     color: white;
     text-align: justify;
@@ -55,7 +55,7 @@ main {
     margin-top: 60px;
 }
 
-.container-list{
+.container_list {
     display: flex;
     width: 80%;
     justify-content: left;
@@ -89,7 +89,7 @@ main {
 /* ========================================================================== */
 
 @media(max-width:900px){
-    .main-text p {
+    .main_text p {
         font-size: 16px;
         line-height: 1.6em;
     }

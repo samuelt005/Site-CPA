@@ -74,7 +74,7 @@
 .sub_dd_button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #ffffff;
+    background-color: var(--WHITE);
     cursor: pointer;
     white-space: nowrap;
     background-color: var(--CERISEREDRED);
@@ -99,7 +99,7 @@
     padding: 0;
     margin: 2px 0 0 0;
     box-shadow: 0 0 6px 0 var(--SHADOW);
-    background-color: #ffffff;
+    background-color: var(--WHITE);
     list-style-type: none;
     z-index: 9999;
 }
@@ -126,7 +126,7 @@
     text-decoration: none;
     font-size: 18px;
     font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
-    color: #000000;
+    color: var(--TEXTCOLOR2);
 }
 
 .sub_dd_menu li a:hover {

@@ -73,15 +73,15 @@ body {
 	z-index: 9999;
 	background-color: transparent;
 	border: none;
-	opacity: 50%;
+	opacity: 80%;
 	height: 30px;
 	width: 30px;
 	cursor: pointer;
 }
 
 .dark_mode_button img, .a11y_mode_button img {
-	height: 20px;
-	width: 20px;
+	height: 25px;
+	width: 25px;
 }
 
 .a11y_mode_button {

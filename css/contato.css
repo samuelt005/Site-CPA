@@ -14,6 +14,10 @@
 /* CONTATO FORMATTING */
 /* ========================================================================== */
 
+body {
+    background-color: var(--WHITE);
+}
+
 main {
     background-color: var(--WHITE);
     padding-bottom: 84px;
@@ -42,7 +46,7 @@ main {
 .contact_title {
     font-size: 48px;
     font-weight: 600;
-    color: var(--CERISEREDRED);
+    color: var(--TEXTCOLOR3);
     margin: 10px 10px 40px 0;
     text-align: center;
 }
