@@ -6,19 +6,31 @@
 
 Este repositório contém o código-fonte e os arquivos necessários para o Website Estático da CPA.
 
+
+__O que é a CPA?__
+
+A Comissão Própria de Avaliação é responsável pela coordenação do processo de auto avaliação institucional, desde a elaboração do questionário até a produção do Relatório Anual de Avaliação Institucional. <br> O objetivo da CPA é avaliar o desempenho da instituição e promover a melhoria contínua do processo educativo, identificando pontos de melhoria e potencialidades, visando à excelência acadêmica.
+
 ## Tecnologias Utilizadas
 
 O Site CPA foi desenvolvido utilizando as seguintes tecnologias:
 
 - HTML5 e CSS3 para a estrutura e estilo do site
 - JavaScript para introduzir alguma interatividade e recursos dinâmicos
+- Carrossel responsivo usando o plugin para jQuery [Slick](https://kenwheeler.github.io/slick/)
 
+## Documentação
+
+- Especificação dos Requisitos: Requisitos elaborados a partir da entrevista feita com a colaboradora Daniele Wolfart.
+- Projeto UX: Especificações do projeto baseado nas etapas de desenvolvimento em User Experience
+- Protótipo de UX: [Figma](https://www.figma.com/file/NgLEP64ywlgENkHGIYXCdz/Projeto---Site-CPA?type=design&t=1zsZ4dJBSJOqBoQj-1)
 ## Estrutura do Repositório
 
 O repositório está organizado da seguinte forma:
 
 - `assets/`: diretório para armazenar imagens utilizadas no site
 - `css/`: diretório contendo os arquivos CSS
+- `docs/`: diretório contendo a documentação do projeto
 - `html/`: diretório contendo os arquivos HTML
 - `scripts/`: diretório contendo os arquivos JavaScript
 - `server/`: diretório com arquivos necessários para configurar e executar um servidor web local
