@@ -55,4 +55,6 @@ Integrantes:
 
 ## Licença
 
-Este projeto é licenciado sob a [MIT License](https://github.com/eagleyes005/Site_CPA/blob/main/LICENSE).
+## Licença
+**MIT**
+A licença [MIT](https://github.com/eagleyes005/Site_CPA/blob/main/LICENSE) permite que qualquer pessoa obtenha, use, modifique e distribua o software sob os termos da licença. Ela oferece liberdade aos desenvolvedores para adaptar o software de acordo com suas necessidades e usá-lo em projetos comerciais e não comerciais, sem restrições significativas.
